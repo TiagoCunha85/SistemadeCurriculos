@@ -1,8 +1,8 @@
 <?php
 $host = 'db4free.net';
-$dbname = 'db_ugtsi';
-$username = 'db_ugtsi';
-$password = '2ae8b906';
+$dbname = 'db';
+$username = 'db';
+$password = '';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
